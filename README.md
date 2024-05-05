@@ -468,20 +468,35 @@ while test_output != desired_output:
 
 This gave results that looked like this:
 > Optimized Input: mypasswordissecretgdtnryugbdaban
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretgrtqxougbdaban
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretgfuqjzzgbintan
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretgfuqjzzgbintan
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretyfunjoqgbintgn
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretyzinqrqgbdatgn
+
 > Output: flag is damn nice trainingbdatan
+
 > Optimized Input: mypasswordissecretgcinorcgtvmtan
+
 > Output: flag is damn nice trainingtdatan
+
 > Optimized Input: mypasswordissecret cymwrnmtdmtan
+
 > Output: flag is damn nice trainingtdatan
 
 Although looking at this while loop's growing output, I noticed that some of the inputs with spaces in the end sequence got quite close. So I just tried it:
