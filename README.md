@@ -37,7 +37,7 @@ The code is generally what you would expect from looking at the website, but two
 	
 Let's see what claude opus thinks about the source.
 
-![[Pasted image 20240505165715.png]]
+![Claude Screenshot](claude_screenshot.png)
 > Based on the HTML source code provided, there appear to be a few potential security puzzles or challenges hidden within the page:
 > 1.  Steganography:
 >    -   The comment "// there is more here than meets the eye" suggests there might be hidden information within the page.
@@ -143,7 +143,7 @@ plt.ylabel('Output Neurons')
 plt.show()
 ```
 
-![[legantoRIS.png]]
+![heatmap of weights](weight_heatmap.png)
 
 Unfortunately, this is probably what you would expect from a one-hot encoded input to output map. The squares at each point are 27 x 27 (the vocab size), and probably represent the intended input to output mapping. The fact the squares are more faded at the end is interesting, but this probably won't be our route to solving this puzzle.
 
