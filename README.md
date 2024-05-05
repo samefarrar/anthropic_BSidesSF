@@ -311,16 +311,16 @@ print("Optimized Input:", optimized_input)
 Again, not much success here:
 
 > Step 0: Loss 3172.891845703125
-Step 100: Loss 2687.786376953125
-Step 200: Loss 2688.6142578125
-Step 300: Loss 2689.028076171875
-Step 400: Loss 2689.294921875
-Step 500: Loss 2689.48779296875
-Step 600: Loss 2689.636962890625
-Step 700: Loss 2689.758056640625
-Step 800: Loss 2689.85888671875
-Step 900: Loss 2689.945556640625
-Optimized Input: lrqigvtsgcenltsenvet zukgwlihru 
+> Step 100: Loss 2687.786376953125
+> Step 200: Loss 2688.6142578125
+> Step 300: Loss 2689.028076171875
+> Step 400: Loss 2689.294921875
+> Step 500: Loss 2689.48779296875
+> Step 600: Loss 2689.636962890625
+> Step 700: Loss 2689.758056640625
+> Step 800: Loss 2689.85888671875
+> Step 900: Loss 2689.945556640625
+> Optimized Input: lrqigvtsgcenltsenvet zukgwlihru 
 
 So I went back to basics. Neural Networks are just (sometimes very complex) functions, and linear combination of inputs and their weights. Especially since our MLP here is just an 864 x 864 linear layer, this transformation (compared to a lot of other seq2seq work) is pretty simple.
 
@@ -468,21 +468,21 @@ while test_output != desired_output:
 
 This gave results that looked like this:
 > Optimized Input: mypasswordissecretgdtnryugbdaban
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretgrtqxougbdaban
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretgfuqjzzgbintan
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretgfuqjzzgbintan
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretyfunjoqgbintgn
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretyzinqrqgbdatgn
-Output: flag is damn nice trainingbdatan
-Optimized Input: mypasswordissecretgcinorcgtvmtan
-Output: flag is damn nice trainingtdatan
-Optimized Input: mypasswordissecret cymwrnmtdmtan
-Output: flag is damn nice trainingtdatan
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretgrtqxougbdaban
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretgfuqjzzgbintan
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretgfuqjzzgbintan
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretyfunjoqgbintgn
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretyzinqrqgbdatgn
+> Output: flag is damn nice trainingbdatan
+> Optimized Input: mypasswordissecretgcinorcgtvmtan
+> Output: flag is damn nice trainingtdatan
+> Optimized Input: mypasswordissecret cymwrnmtdmtan
+> Output: flag is damn nice trainingtdatan
 
 Although looking at this while loop's growing output, I noticed that some of the inputs with spaces in the end sequence got quite close. So I just tried it:
 
