@@ -4,7 +4,7 @@
 
 ## Anthropic BSidesSF Challenge
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">hi anon, want to work on the security swe team at <a href="https://twitter.com/AnthropicAI?ref\_src=twsrc%5Etfw">@AnthropicAI</a>? i wrote a challenge that i&#39;m running at <a href="https://twitter.com/BSidesSF?ref\_src=twsrc%5Etfw">@BSidesSF</a> and id love to hire some cracked security engineers, find the challenge and solve it: <a href="https://t.co/EBr00P2o2H">https://t.co/EBr00P2o2H</a></p>&mdash; Ziyad Edher (@ziyadedher) <a href="https://twitter.com/ziyadedher/status/1786873665499607436?ref\_src=twsrc%5Etfw">May 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">hi anon, want to work on the security swe team at <a href="https://twitter.com/AnthropicAI?ref\_src=twsrc%5Etfw">@AnthropicAI</a>? i wrote a challenge that i&#39;m running at <a href="https://twitter.com/BSidesSF?ref\_src=twsrc%5Etfw">@BSidesSF</a> and id love to hire some cracked security engineers, find the challenge and solve it: <a href="https://t.co/EBr00P2o2H">https://t.co/EBr00P2o2H</a></p>&mdash; Ziyad Edher (@ziyadedher) <a href="https://twitter.com/ziyadedher/status/1786873665499607436?ref\_src=twsrc%5Etfw">May 4, 2024</a></blockquote>
 
 I came across this tweet scrolling twitter this morning, and was intrigued. I use claude **a lot** and a little puzzle definitely beats doomscrolling. I don't know very much about security, but this sounds like fun.
 
